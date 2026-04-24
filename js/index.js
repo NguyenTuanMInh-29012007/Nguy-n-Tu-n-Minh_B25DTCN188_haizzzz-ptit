@@ -33,7 +33,7 @@ btnSubmit.addEventListener("click", () => {
     if(userFound){
         localStorage.setItem("currentUser", JSON.stringify(userFound));
 
-        window.location.href = ".html/trangchu.html";
+        window.location.href = "html/trangchu.html";
     }
     
 })
