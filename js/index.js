@@ -12,6 +12,13 @@ let mocks = [
         name: "Nguyễn Thành Đạt",
         email: "thanhdat@gmail.com",
         password:"1234567",
+    },
+    {
+        id: 3,
+        msv: "B25DTCN286",
+        name: "Nguyễn Thành Đạt",
+        email: "B25DTCN286",
+        password:"11012007"
     }
 ];
 

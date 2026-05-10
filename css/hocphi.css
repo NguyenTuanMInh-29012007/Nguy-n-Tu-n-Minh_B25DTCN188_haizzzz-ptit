@@ -1147,3 +1147,25 @@ body {
     font-weight: bold;
     background-color: #fffaf0;
 }
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;   /* QUAN TRỌNG */
+}
+
+/* Giữ bảng không bị co lại */
+.fee-table {
+    min-width: 600px; /* hoặc 700px tùy bảng bạn */
+}
+
+
+@media screen and (max-width: 767px) {
+    .table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* mượt trên iPhone */
+    }
+
+    .fee-table {
+        min-width: 650px;
+    }
+}
